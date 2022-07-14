@@ -1,0 +1,28 @@
+.header-carousel {
+  position: relative;
+}
+.header-logo-img {
+  position: absolute;
+  z-index: 1;
+  left: 35%;
+  top: 25%;
+}
+.header-logo-img img {
+  width: 445px;
+  height: 273px;
+}
+@media only screen and (max-width: 788px) {
+  .header-logo-img {
+    position: absolute;
+    z-index: 1;
+    left: 28%;
+    top: 25%;
+  }
+  .header-logo-img img {
+    width: 150px;
+    height: 90px;
+  }
+  .carousel-item img{
+    height: 200px;
+  }
+}

@@ -1,0 +1,21 @@
+.boder-dashed1{
+    border: 1px dashed rgb(93, 91, 91);
+}
+.foodTimeSection{
+    background-color: #0c151a;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.foodTimeSection h2{
+    font-size: 40px;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 600;
+    color: #bebebe;
+}
+.foodTimeSection h5{
+    font-size: 22px;
+    color: #949494;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 300;
+}
+/*  */

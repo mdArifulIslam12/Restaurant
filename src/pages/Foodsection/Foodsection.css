@@ -1,0 +1,42 @@
+.foodsection{
+    position: relative;
+}
+.foodsection-detail{
+    position: absolute;
+    top: 34%;
+    left: 35.9%;
+   
+}
+.foodsection-detail h2{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+.detail1{
+    font-size: 45px;
+    font-weight: 500;
+}
+.detail{
+    font-size: 75px;
+    font-weight: 400;
+}
+@media only screen and (max-width: 788px) {
+    .foodsection-detail{
+        position: absolute;
+        top: 34%;
+        left: 28%;
+       
+    }
+    .detail1{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .detail{
+        font-size: 32px;
+        font-weight: 500;
+    }
+    .foodsection-img img{
+        height: 350px;
+    }
+  }

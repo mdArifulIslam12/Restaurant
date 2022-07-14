@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200;300;400;600;700&display=swap');
+
+.detailSection img{
+    width: 672px;
+    height: 490px;
+}
+.border-dashed-top{
+    border-top: 1px dashed #bebebe;
+}
+.border-dashed-bottom{
+    border-bottom: 1px dashed #bebebe;
+}
+.foodDetailSection h3{
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 600;
+    font-size: 27px;
+}
+.foodDetailSection-header{
+    font-size: 37px;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 600;
+}
+.foodDetailSection p{
+    font-size: 13px;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 400;
+}
+.foodsection-price{
+    font-size: 13px;
+}
+.foodsection-price1{
+    font-size: 11px;
+}
+#detailsection-img{
+    height: 412px;
+}
+@media only screen and (max-width: 788px) {
+    .detailSection img{
+        width: 400px;
+        height: 400px;
+    }
+    .foodDetailSection1{
+        order: 2;
+    }
+    .detailSection{
+        order: 1;
+    }
+    .foodDetailSection1{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    
+  }
