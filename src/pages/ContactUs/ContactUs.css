@@ -1,0 +1,26 @@
+.contactUs{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.btnprimary{
+    padding: 14px 0px;
+    border: 1px solid red;
+    color: red;
+}
+.btnprimary:hover{
+    color: white;
+    background-color: red;
+}
+.contactUs h2 {
+    font-size: 50px ;
+    font-weight: 700;
+    font-family: 'Source Serif Pro', serif;
+}
+.contactUs h3{
+    font-weight: 600;
+    font-size: 25px;
+}
+.contactUs h4{
+    font-weight: 400;
+    font-size: 20px;
+}
